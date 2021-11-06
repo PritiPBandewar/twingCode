@@ -22,8 +22,7 @@ export const groupArrayElements = (input, size) => {
   }
 
   const result = [];
-  const counter = Math.ceil(input.length / size);
-
+  
   for (let index = size; index > 0; index--) {
     result.push(input.splice(0, Math.ceil(input.length / index)));
   }
