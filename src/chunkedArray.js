@@ -1,6 +1,7 @@
 import { Validator } from "./validator";
 
 export const chunkedArrayFunction = (array, numberOfSubArray) => {
+  
   // check if the data is valid or not
   const isValidationSuccessful = Validator(array, numberOfSubArray);
 
@@ -16,4 +17,5 @@ export const chunkedArrayFunction = (array, numberOfSubArray) => {
     index = index + noOfElementInOneArray;
   }
   return newArray;
+  
 };
