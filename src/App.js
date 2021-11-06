@@ -8,7 +8,7 @@ function App() {
       <p>Welcome</p>
       {console.log(
         "Output",
-        chunkedArrayFunction([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 6)
+        chunkedArrayFunction([1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11], 6)
       )}
     </div>
   );
